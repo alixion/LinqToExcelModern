@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Version>1.0.0</Version>
+        <Authors>Paul Yoder, Stephen Workman</Authors>
+        <Description>Easily retrieve data from spreadsheets and csv files by using LINQ</Description>
+        <PackageTags>Linq Excel spreadsheet csv</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+    </PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="Remotion.Linq" Version="2.2.0" />
+    <PackageReference Include="System.Data.OleDb" Version="6.0.0" />
+</ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+bin/
+bin64/
+obj/
+tests/
+*.suo
+LinqToExcel.xml
+*ReSharper*
+*.zip
+*.nupkg
+src/packages/
+*.DotSettings.user
+*.csproj.user
+.vs/
+*.csproj.user
+*.DotSettings.user
