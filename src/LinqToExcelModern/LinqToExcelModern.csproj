@@ -10,6 +10,8 @@
         <Version>1.0.0</Version>
         <Authors>Paul Yoder, Stephen Workman</Authors>
         <Description>Easily retrieve data from spreadsheets and csv files by using LINQ</Description>
+        <PackageLicenseUrl>https://github.com/alixion/LinqToExcelModern/blob/master/License.txt</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/alixion/LinqToExcelModern</PackageProjectUrl>
         <PackageTags>Linq Excel spreadsheet csv</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
         <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
